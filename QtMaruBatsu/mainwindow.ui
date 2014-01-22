@@ -22,14 +22,14 @@
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="1" column="0" colspan="2">
-     <widget class="Line" name="line_13">
+     <widget class="Line" name="line_top">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
      </widget>
     </item>
     <item row="2" column="0" colspan="2">
-     <layout class="QGridLayout" name="gridLayout_7" rowstretch="1,0,0,0,0" columnstretch="1,0,0,0,0">
+     <layout class="QGridLayout" name="gridLayout_1" rowstretch="1,0,0,0,0" columnstretch="1,0,0,0,0">
       <item row="3" column="0">
        <widget class="Line" name="line_4">
         <property name="orientation">
@@ -80,7 +80,7 @@
        </widget>
       </item>
       <item row="4" column="0">
-       <widget class="QPushButton" name="pushButton_6">
+       <widget class="QPushButton" name="pushButton_20">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -96,7 +96,7 @@
        </widget>
       </item>
       <item row="0" column="4">
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="pushButton_02">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -119,7 +119,7 @@
        </widget>
       </item>
       <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="pushButton_00">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -135,7 +135,7 @@
        </widget>
       </item>
       <item row="2" column="0">
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="pushButton_10">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -151,7 +151,7 @@
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="pushButton_01">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -167,7 +167,7 @@
        </widget>
       </item>
       <item row="2" column="2">
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="pushButton_11">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -183,7 +183,7 @@
        </widget>
       </item>
       <item row="4" column="4">
-       <widget class="QPushButton" name="pushButton_8">
+       <widget class="QPushButton" name="pushButton_22">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -199,7 +199,7 @@
        </widget>
       </item>
       <item row="4" column="2">
-       <widget class="QPushButton" name="pushButton_7">
+       <widget class="QPushButton" name="pushButton_21">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -215,7 +215,7 @@
        </widget>
       </item>
       <item row="2" column="4">
-       <widget class="QPushButton" name="pushButton_9">
+       <widget class="QPushButton" name="pushButton_12">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>1</horstretch>
@@ -261,7 +261,7 @@
      </layout>
     </item>
     <item row="0" column="0">
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="label_left">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
         <horstretch>0</horstretch>
@@ -269,12 +269,12 @@
        </sizepolicy>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>○ player</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="label_right">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
         <horstretch>0</horstretch>
@@ -306,7 +306,7 @@
     </property>
     <addaction name="actionStart"/>
     <addaction name="separator"/>
-    <addaction name="actionQuit_2"/>
+    <addaction name="actionQuit"/>
    </widget>
    <addaction name="menuQtMaruBatsu"/>
   </widget>
@@ -316,11 +316,6 @@
    </property>
   </action>
   <action name="actionQuit">
-   <property name="text">
-    <string>Quit</string>
-   </property>
-  </action>
-  <action name="actionQuit_2">
    <property name="text">
     <string>Quit</string>
    </property>
