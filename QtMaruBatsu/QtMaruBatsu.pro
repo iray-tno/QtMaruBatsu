@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    marubatsu.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    marubatsu.h
 
 FORMS    += mainwindow.ui
